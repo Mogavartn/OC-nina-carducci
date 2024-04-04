@@ -14,10 +14,12 @@
 	<script src="./assets/maugallery.js"></script>
 	<script src="./assets/scripts.js"></script>
 </head>
+<!-- BODY -->
 <body>
-<div class="top-header">
+<!-- HEADER -->
+<header class="top-header">
 	<h3 class="name">Nina Carducci</h3>
-	<div class="nav">   
+	<nav class="nav">   
 		<ul>
 			<li><a href="#about">À propos</a></li>
 			<li><a href="#gallery">Galerie</a></li>
@@ -25,10 +27,11 @@
 			<li><a href="#contact">Contact</a></li>
 			<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt=""></a></li>
 		</ul>
-	</div>
-</div>
+	</nav>
+</header>
+<!-- MAIN -->
+<main>
 <div id="header">
-
 	<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 		<div class="carousel-indicators">
 			<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -56,41 +59,49 @@
 		</button>
 	</div>
 </div>
-<div id="about">
-	<div class="picture left">
-		<img src="./assets/images/nina.png">
-	</div>
-	<div id="about-me">
-		<h3 class="about-me__title">A propos de moi</h3>
-		<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
-		<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
+<!-- SECTION ABOUT -->
+<section>
+	<div id="about">
+		<div class="picture left">
+			<img src="./assets/images/nina.png">
+		</div>
+		<div id="about-me">
+			<h3 class="about-me__title">A propos de moi</h3>
+			<h6 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h6>
+			<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 			C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
-	</div>
-</div>
-<div id="gallery">
-	<h3 class="title">Portfolio</h3>
-	<div class="container py-3">
-		<div class="gallery" style="display: none">
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"/>
-			<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"/>
-			<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"/>
-			<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"/>
-			<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"/>
 		</div>
 	</div>
-	<div class="quote">
-		<figure>
-			<blockquote>
+</section>
+<!-- SECTION GALLERY -->
+<section>
+	<div id="gallery">
+		<h3 class="title">Portfolio</h3>
+		<div class="container py-3">
+			<div class="gallery" style="display: none">
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg"/>
+				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg"/>
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg"/>
+				<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg"/>
+				<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg"/>
+				<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg"/>
+				<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg"/>
+			</div>
+		</div>
+		<div class="quote">
+			<figure>
+				<blockquote>
 				<h1 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h1>
-			</blockquote>
-			<figcaption class="quote__author">- Richard Avedon</figcaption>
-		</figure>
+				</blockquote>
+				<figcaption class="quote__author">- Richard Avedon</figcaption>
+			</figure>
+		</div>
 	</div>
-</div>
+</section>
+<!-- SECTION SERVICES -->
+<section>
 <div id="services">
 	<h3 class="title">Mes services</h3>
 	<div class="container">
@@ -103,7 +114,6 @@
 				<h4>350€/demi journée</h4>
 				<span>Matériel, déplacement inclus</span>
 			</div>
-
 		</div>
 		<div class="service">
 			<div class="service__description">
@@ -135,6 +145,9 @@
 		<figcaption class="quote__author">- Richard Avedon</figcaption>
 	</figure>
 </div>
+</section>
+<!-- SECTION CONTACT -->
+<section>
 <div id="contact">
 	<div class="container">
 		<div class="form-container">
@@ -155,5 +168,18 @@
 		</div>
 	</div>
 </div>
+</section>
+<!-- FOOTER -->
+<footer>
+	<div>
+	<address>
+		<span>68 avenue Alsace-Lorraine</span>, <span>Bordeaux</span>,
+		<span>33200</span>
+	</address>
+	<p>Téléphone : <a href="tel:0556677889">05 56 67 78 89</a></p>
+	<p>Horaires d'ouverture : Lundi - Vendredi de 10h à 19h.</p>
+	</div>
+</footer>
+</main>
 </body>
 </html>

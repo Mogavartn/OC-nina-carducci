@@ -214,7 +214,6 @@ body {
 }
 .form-container {
 	flex : 2;
-
 }
 form {
 	display: flex;
@@ -243,6 +242,13 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+footer {
+	background-color: #1c6474;
+	padding-block: 2em;
+	color: white;
+	text-align: center;
 }
 
 @media all and (max-width: 1180px) {
@@ -352,6 +358,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	footer {
+		font-size: 0.8rem;
 	}
 }
 
