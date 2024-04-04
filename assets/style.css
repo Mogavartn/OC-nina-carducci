@@ -103,12 +103,19 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: #1c6474;
 	border-radius:0 ;
+	font-size: larger;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	font-size: large;
 }
+
+.nav-pills:hover .nav-link:hover {
+	cursor: pointer;
+}
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -249,6 +256,13 @@ footer {
 	padding-block: 2em;
 	color: white;
 	text-align: center;
+}
+
+.tel {
+	color: #fff;
+}
+.tel:hover {
+	color: #000;
 }
 
 @media all and (max-width: 1180px) {
